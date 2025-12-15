@@ -24,10 +24,6 @@
         --white-color: rgba(255, 255, 255);
       }
 
-      body {
-        padding-top: 118px;
-      }
-
       .background-color {
         background-color: rgb(237, 238, 238);
       }
@@ -128,7 +124,7 @@
   <body>
     <!--navbar-section-->
     <div
-      class="navbar background-color navbar-expand-lg border-bottom border-dark fixed-top"
+      class="navbar background-color navbar-expand-lg border-bottom border-dark"
     >
       <div class="container-fluid">
         <a href="" class="navbar-brand">
@@ -160,13 +156,7 @@
                 >الصفحة الرئيسية</a
               >
             </li>
-            <li class="navbar-item ps-4 mb-3">
-              <a
-                href="#TopSelling"
-                class="navbar-link text-decoration-none nav-link-color underline-hover"
-                >الأكثر مبيعاً</a
-              >
-            </li>
+
             <li class="navbar-item dropdown ps-4 mb-3">
               <a
                 href=""
@@ -235,7 +225,7 @@
             </li>
             <li class="navbar-item mb-3">
               <a
-                href="#aboutUs"
+                href="#offers"
                 class="navbar-link text-decoration-none ps-4 nav-link-color underline-hover"
                 >العروض
               </a>
@@ -398,61 +388,265 @@
 
     <!--end banner-section-->
 
-    <!--about-us-section-->
-    <div class="container-fluid bg-light mb-5" id="aboutUs">
+    <!--offers-section-->
+    <div class="container" id="offers">
       <div class="row justify-content-center mt-5">
-        <div class="col-md-3">
-          <div class="mb-3">
-            <img
-              src="./images/accessories.webp"
-              alt=""
-              class="img-fluid mt-5 d-none d-md-block"
-              style="width: 120%; height: 300px; object-fit: cover"
-            />
-          </div>
+        <div class="col md-4">
+          <h2>العروض الأسبوعية</h2>
         </div>
-        <div class="col-md-6">
-          <div class="text-center mt-3">
-            <h1 class="mb-3 text-orange">من نحن</h1>
-            <p>
-              بدأنا عام 2003 من دمشق بافتتاح مركزنا لتقديم كافة خدمات الموبايل و
-              اللابتوب و الكمبيوتر واكسسواراتها و قدمنا أعمال الصيانة الاحترافية
-              لكافة أنواع الموبايل و اللابتوب للأفراد و الشركات و المؤسسات
-              التعليمية واستمرينا حتى عام 2013 ثم نقلنا خدماتنا الى اسطنبول
-              لنفتتح حينها أول مركز اتصالات و حواسيب سوري في اسطنبول وبفضل من
-              الله قدمنا خدماتنا بكل إخلاص كما عهدنا زبائننا و أضفنا لخدماتنا
-              مجال كميرات المراقبة و تصميم المواقع لنخدّم العديد من الشركات
-              الهندسية والتعليمية في اسطنبول وبعد 12 عام في اسطنبول قررنا العودة
-              إلى بلدنا الحبيب لنفتتح مجدداً مركزنا الجديد في دمشق لنضع بين
-              أيديكم خبرة 22 عام و لنكون جزء من المتابعين و المساهمين في نهضة
-              بلدنا الغالي سوريا
-            </p>
-            <div class="mt-4 pb-5">
-              <p class="pb-4 fs-4 text-orange">موعدنا في دمشق</p>
-              <span class="ms-4 rounded-pill shadow-lg p-4 fs-5 history"
-                >01</span
-              >
-              <span class="ms-4 rounded-pill shadow-lg p-4 fs-5 history"
-                >02</span
-              >
-              <span class="ms-4 rounded-pill shadow-lg p-4 fs-5 history"
-                >2026</span
-              >
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-3">
+            <div
+              class="border border-dark rounded-3 mb-3"
+              style="height: 425px"
+            >
+              <img
+                src="./images/offer1.jfif"
+                alt=""
+                height="230px"
+                width="100%"
+              />
+              <div class="text-center mt-3">
+                <p class="fs-5">لأن أمان طفلك أولوية</p>
+                <p class="fs-5">
+                  ساعة أطفال ذكية تدعم شريحة اتصال Sim والعديد من الميزات
+                </p>
+
+                <p class="fs-1 text-orange">
+                  <span
+                    class="text-secondary text-decoration-line-through fs-3 pe-3"
+                    >25$</span
+                  >18$
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="border border-dark mb-3 rounded-3"
+              style="height: 425px"
+            >
+              <img
+                src="./images/offer2.jfif"
+                alt=""
+                height="230px"
+                width="100%"
+              />
+              <div class="text-center mt-3">
+                <p class="fs-5">لمحبي الألعاب سماعة بلوتوث Gaming ألمانية</p>
+
+                <p class="fs-1 text-orange pt-4">
+                  <span
+                    class="text-secondary text-decoration-line-through fs-3 pe-3"
+                    >29$</span
+                  >19$
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="border border-dark mb-3 rounded-3"
+              style="height: 425px"
+            >
+              <img
+                src="./images/offer3.jfif"
+                alt=""
+                height="230px"
+                width="100%"
+              />
+              <div class="text-center mt-3">
+                <p class="fs-5">
+                  بور بنك ألمانية بسعة 10000mAh تدعم الشحن السريع PD 22.5W
+                </p>
+
+                <p class="fs-1 text-orange pt-4">
+                  <span
+                    class="text-secondary text-decoration-line-through fs-3 pe-3"
+                    >27$</span
+                  >16$
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="border border-dark mb-3 rounded-3"
+              style="height: 425px"
+            >
+              <img
+                src="./images/offer4.jfif"
+                alt=""
+                height="230px"
+                width="100%"
+              />
+              <div class="text-center mt-3">
+                <p class="fs-5">
+                  شاحن لاسلكي مع بور بنك ماركة ألمانية بسعة 10000mAh يدعم الشحن
+                  السريع PD 22.5W
+                </p>
+
+                <p class="fs-1 text-orange">
+                  <span
+                    class="text-secondary text-decoration-line-through fs-3 pe-3"
+                    >32$</span
+                  >19$
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="border border-dark rounded-3" style="height: 425px">
+              <img
+                src="./images/offer5.jfif"
+                alt=""
+                height="230px"
+                width="100%"
+              />
+              <div class="text-center mt-3">
+                <p class="fs-5">أصغر بفل بلوتوث بالحجم بس الأداء غيييير شكل</p>
+
+                <p class="fs-1 text-orange pt-4">
+                  <span
+                    class="text-secondary text-decoration-line-through fs-3 pe-3"
+                    >19$</span
+                  >13$
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="border border-dark rounded-3" style="height: 425px">
+              <img
+                src="./images/offer6.jfif"
+                alt=""
+                height="230px"
+                width="100%"
+              />
+              <div class="text-center mt-3">
+                <p class="fs-5">
+                  مراية للسيارة مزودة بكميرا مراقبة مع امكانية التسجيل على كرت
+                  الذاكرة
+                </p>
+
+                <p class="fs-1 text-orange pt-4">
+                  <span
+                    class="text-secondary text-decoration-line-through fs-3 pe-3"
+                    >40$</span
+                  >26$
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-3">
+            <div class="border border-dark rounded-3" style="height: 425px">
+              <img
+                src="./images/offer7.jfif"
+                alt=""
+                height="230px"
+                width="100%"
+              />
+              <div class="text-center mt-3">
+                <p class="fs-5">
+                  ساعة ذكية من شركة شومي بأداء ممتاز مع إمكانية الرد على
+                  المكالمات
+                </p>
+
+                <p class="fs-1 text-orange pt-4">
+                  <span
+                    class="text-secondary text-decoration-line-through fs-3 pe-3"
+                    >60$</span
+                  >45$
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-3">
+            <div class="border border-dark rounded-3" style="height: 425px">
+              <img
+                src="./images/offer8.jfif"
+                alt=""
+                height="230px"
+                width="100%"
+              />
+              <div class="text-center mt-3">
+                <p class="fs-5">
+                  لأصحاب المتورات سماعة بلوتوث توضع داخل الخوذة
+                </p>
+
+                <p class="fs-1 text-orange pt-4">
+                  <span
+                    class="text-secondary text-decoration-line-through fs-3 pe-3"
+                    >49$</span
+                  >29$
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="mb-3">
-            <img
-              src="./images/laptop.webp"
-              alt=""
-              class="img-fluid mt-5 d-none d-md-block"
-              style="width: 120%; height: 300px; object-fit: cover"
-            />
+      </div>
+    </div>
+
+    <!--end offers-section-->
+
+    <!--about-us-section-->
+    <div class="container-fluid bg-light mb-5" id="aboutUs">
+      <div class="container">
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-3">
+            <div class="mb-3">
+              <img
+                src="./images/about.jfif"
+                alt=""
+                class="img-fluid mt-5 shadow-lg border border-dark rounded rounded-pill"
+                style="width: 300px; height: 400px"
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="text-center mt-3">
+              <h1 class="mb-3 text-orange">من نحن</h1>
+              <p>
+                بدأنا عام 2003 من دمشق بافتتاح مركزنا لتقديم كافة خدمات الموبايل
+                و اللابتوب و الكمبيوتر واكسسواراتها و قدمنا أعمال الصيانة
+                الاحترافية لكافة أنواع الموبايل و اللابتوب للأفراد و الشركات و
+                المؤسسات التعليمية واستمرينا حتى عام 2013 ثم نقلنا خدماتنا الى
+                اسطنبول لنفتتح حينها أول مركز اتصالات و حواسيب سوري في اسطنبول
+                وبفضل من الله قدمنا خدماتنا بكل إخلاص كما عهدنا زبائننا و أضفنا
+                لخدماتنا مجال كميرات المراقبة و تصميم المواقع لنخدّم العديد من
+                الشركات الهندسية والتعليمية في اسطنبول وبعد 12 عام في اسطنبول
+                قررنا العودة إلى بلدنا الحبيب لنفتتح مجدداً مركزنا الجديد في
+                دمشق لنضع بين أيديكم خبرة 22 عام و لنكون جزء من المتابعين و
+                المساهمين في نهضة بلدنا الغالي سوريا
+              </p>
+              <div class="mt-4 pb-5">
+                <p class="pb-4 fs-4 text-orange">موعدنا في دمشق</p>
+                <span class="ms-4 rounded-pill shadow-lg p-4 fs-5 history"
+                  >01</span
+                >
+                <span class="ms-4 rounded-pill shadow-lg p-4 fs-5 history"
+                  >02</span
+                >
+                <span class="ms-4 rounded-pill shadow-lg p-4 fs-5 history"
+                  >2026</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="mb-3">
+              <img
+                src="./images/about2.jfif"
+                alt=""
+                class="img-fluid mt-5 shadow-lg border border-dark rounded rounded-pill"
+                style="width: 300px; height: 400px"
+              />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="container">
+
         <div class="row justify-content-center mt-5">
           <div class="col-md-4">
             <div class="card mb-4">
@@ -510,7 +704,7 @@
           </div>
 
           <div class="col-md-4">
-            <div class="card mb-4" style="height: 440px;">
+            <div class="card mb-4" style="height: 440px">
               <div class="card-header">
                 <h5 class="text-center">خدمات الذكاء الاصطناعي</h5>
               </div>
@@ -601,7 +795,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card mb-4" >
+            <div class="card mb-4">
               <div class="card-header">
                 <h5 class="text-center">خدمات الإنتاج والمونتاج</h5>
               </div>
@@ -635,7 +829,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card mb-4" style="height: 306px;">
+            <div class="card mb-4" style="height: 306px">
               <div class="card-header">
                 <h5 class="text-center">الهوية والبصمة الرقمية</h5>
               </div>
