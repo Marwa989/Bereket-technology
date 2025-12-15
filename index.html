@@ -24,6 +24,10 @@
         --white-color: rgba(255, 255, 255);
       }
 
+      body{
+        padding-top: 145px;
+      }
+
       .background-color{
         background-color: rgb(237, 238, 238);
       }
@@ -40,7 +44,7 @@
 
       .underline-hover {
         position: relative;
-        padding-bottom: 5px;
+        padding-bottom: 7px;
       }
 
       .underline-hover::after {
@@ -86,7 +90,7 @@
 <body>
 
 <!--navbar-section-->
-  <div class="navbar background-color navbar-expand-lg border-bottom border-dark">
+  <div class="navbar background-color navbar-expand-lg border-bottom border-dark fixed-top">
     <div class="container-fluid">
       <a href="" class="navbar-brand"> <img src="./images/logo-removebg-preview.png" width="100px" height="120px"  alt=""></a>
          <button
@@ -183,6 +187,13 @@
                   </ul>
                 </li>
               </ul>
+            </li>
+             <li class="navbar-item mb-3">
+              <a
+                href="#aboutUs"
+                class="navbar-link text-decoration-none ps-4 nav-link-color underline-hover"
+                >العروض </a
+              >
             </li>
             <li class="navbar-item mb-3">
               <a
