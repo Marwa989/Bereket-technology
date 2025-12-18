@@ -59,7 +59,6 @@
       .background {
         background: url(./images/2571115.jpg);
         background-position: center;
-        
       }
 
       .carousel-indicators {
@@ -124,6 +123,27 @@
       .footer-bg {
         background-color: var(--black-color);
       }
+
+      #iconP1,
+      #iconP2 {
+        background-color: var(--orange-color);
+        margin-top: 500px;
+      }
+
+      #iconP1 {
+        margin-left: 150px;
+      }
+
+      #iconP2 {
+        margin-right: 150px;
+      }
+
+      #testimonials-control{
+        background-color:var(--black-color);
+        width: 20px;
+        height: 30px;
+       
+      }
     </style>
   </head>
   <body>
@@ -157,7 +177,7 @@
             <li class="navbar-item ps-4 mb-3 fw-bold fs-5">
               <a
                 href=""
-                class="navbar-link text-decoration-none nav-link-color underline-hover "
+                class="navbar-link text-decoration-none nav-link-color underline-hover"
                 >الصفحة الرئيسية</a
               >
             </li>
@@ -392,7 +412,9 @@
             <div class="overlay position-absolute"></div>
             <div class="text-box text-center">
               <h2 class="mb-4 fs-3">قسم الكمبيوتر</h2>
-              <a href="./computer.html" class="streched-link text-decoration-none text-white pe-4 fs-5"
+              <a
+                href="./computer.html"
+                class="streched-link text-decoration-none text-white pe-4 fs-5"
                 >عرض المنتجات
               </a>
             </div>
@@ -413,7 +435,9 @@
             <div class="overlay position-absolute"></div>
             <div class="text-box text-center">
               <h2 class="mb-4 fs-3">قسم الموبايل</h2>
-              <a href="./mobileS.html" class="text-decoration-none text-white pe-4 fs-5"
+              <a
+                href="./mobileS.html"
+                class="text-decoration-none text-white pe-4 fs-5"
                 >عرض المنتجات
               </a>
             </div>
@@ -433,7 +457,9 @@
             <div class="overlay position-absolute"></div>
             <div class="text-box text-center me-5">
               <h3 class="mb-4 fs-4">قسم الاكسسوارات</h3>
-              <a href="./accessories.html" class="text-decoration-none text-white pe-4 fs-5"
+              <a
+                href="./accessories.html"
+                class="text-decoration-none text-white pe-4 fs-5"
                 >عرض المنتجات
               </a>
             </div>
@@ -450,198 +476,233 @@
         <div class="col md-4">
           <h2>العروض الأسبوعية</h2>
         </div>
-        <div class="row justify-content-center mt-4">
-          <div class="col-md-3">
-            <div
-              class="border border-dark rounded-3 mb-3"
-              style="height: 425px"
-            >
-              <img
-                src="./images/offer1.jfif"
-                alt=""
-                height="230px"
-                width="100%"
-              />
-              <div class="text-center mt-3">
-                <p class="fs-5">لأن أمان طفلك أولوية</p>
-                <p class="fs-5">
-                  ساعة أطفال ذكية تدعم شريحة اتصال Sim والعديد من الميزات
-                </p>
+      </div>
+      <div
+        class="carousel slide"
+        id="slides-with-control"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center mt-4">
+              <div class="col-md-3">
+                <div
+                  class="border border-dark rounded-3 mb-3"
+                  style="height: 425px"
+                >
+                  <img
+                    src="./images/offer1.jfif"
+                    alt=""
+                    height="230px"
+                    width="100%"
+                  />
+                  <div class="text-center mt-3">
+                    <p class="fs-5">لأن أمان طفلك أولوية</p>
+                    <p class="fs-5">
+                      ساعة أطفال ذكية تدعم شريحة اتصال Sim والعديد من الميزات
+                    </p>
 
-                <p class="fs-1 text-orange">
-                  <span
-                    class="text-secondary text-decoration-line-through fs-3 pe-3"
-                    >25$</span
-                  >18$
-                </p>
+                    <p class="fs-1 text-orange">
+                      <span
+                        class="text-secondary text-decoration-line-through fs-3 pe-3"
+                        >25$</span
+                      >18$
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div
-              class="border border-dark mb-3 rounded-3"
-              style="height: 425px"
-            >
-              <img
-                src="./images/offer2.jfif"
-                alt=""
-                height="230px"
-                width="100%"
-              />
-              <div class="text-center mt-3">
-                <p class="fs-5">لمحبي الألعاب سماعة بلوتوث Gaming ألمانية</p>
+              <div class="col-md-3">
+                <div
+                  class="border border-dark mb-3 rounded-3"
+                  style="height: 425px"
+                >
+                  <img
+                    src="./images/offer2.jfif"
+                    alt=""
+                    height="230px"
+                    width="100%"
+                  />
+                  <div class="text-center mt-3">
+                    <p class="fs-5">
+                      لمحبي الألعاب سماعة بلوتوث Gaming ألمانية
+                    </p>
 
-                <p class="fs-1 text-orange pt-4">
-                  <span
-                    class="text-secondary text-decoration-line-through fs-3 pe-3"
-                    >29$</span
-                  >19$
-                </p>
+                    <p class="fs-1 text-orange pt-4">
+                      <span
+                        class="text-secondary text-decoration-line-through fs-3 pe-3"
+                        >29$</span
+                      >19$
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div
-              class="border border-dark mb-3 rounded-3"
-              style="height: 425px"
-            >
-              <img
-                src="./images/offer3.jfif"
-                alt=""
-                height="230px"
-                width="100%"
-              />
-              <div class="text-center mt-3">
-                <p class="fs-5">
-                  بور بنك ألمانية بسعة 10000mAh تدعم الشحن السريع PD 22.5W
-                </p>
+              <div class="col-md-3">
+                <div
+                  class="border border-dark mb-3 rounded-3"
+                  style="height: 425px"
+                >
+                  <img
+                    src="./images/offer3.jfif"
+                    alt=""
+                    height="230px"
+                    width="100%"
+                  />
+                  <div class="text-center mt-3">
+                    <p class="fs-5">
+                      بور بنك ألمانية بسعة 10000mAh تدعم الشحن السريع PD 22.5W
+                    </p>
 
-                <p class="fs-1 text-orange pt-4">
-                  <span
-                    class="text-secondary text-decoration-line-through fs-3 pe-3"
-                    >27$</span
-                  >16$
-                </p>
+                    <p class="fs-1 text-orange pt-4">
+                      <span
+                        class="text-secondary text-decoration-line-through fs-3 pe-3"
+                        >27$</span
+                      >16$
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div
-              class="border border-dark mb-3 rounded-3"
-              style="height: 425px"
-            >
-              <img
-                src="./images/offer4.jfif"
-                alt=""
-                height="230px"
-                width="100%"
-              />
-              <div class="text-center mt-3">
-                <p class="fs-5">
-                  شاحن لاسلكي مع بور بنك ماركة ألمانية بسعة 10000mAh يدعم الشحن
-                  السريع PD 22.5W
-                </p>
+              <div class="col-md-3">
+                <div
+                  class="border border-dark mb-3 rounded-3"
+                  style="height: 425px"
+                >
+                  <img
+                    src="./images/offer4.jfif"
+                    alt=""
+                    height="230px"
+                    width="100%"
+                  />
+                  <div class="text-center mt-3">
+                    <p class="fs-5">
+                      شاحن لاسلكي مع بور بنك ماركة ألمانية بسعة 10000mAh يدعم
+                      الشحن السريع PD 22.5W
+                    </p>
 
-                <p class="fs-1 text-orange">
-                  <span
-                    class="text-secondary text-decoration-line-through fs-3 pe-3"
-                    >32$</span
-                  >19$
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mt-3">
-            <div class="border border-dark rounded-3" style="height: 425px">
-              <img
-                src="./images/offer5.jfif"
-                alt=""
-                height="230px"
-                width="100%"
-              />
-              <div class="text-center mt-3">
-                <p class="fs-5">أصغر بفل بلوتوث بالحجم بس الأداء غيييير شكل</p>
-
-                <p class="fs-1 text-orange pt-4">
-                  <span
-                    class="text-secondary text-decoration-line-through fs-3 pe-3"
-                    >19$</span
-                  >13$
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mt-3">
-            <div class="border border-dark rounded-3" style="height: 425px">
-              <img
-                src="./images/offer6.jfif"
-                alt=""
-                height="230px"
-                width="100%"
-              />
-              <div class="text-center mt-3">
-                <p class="fs-5">
-                  مراية للسيارة مزودة بكميرا مراقبة مع امكانية التسجيل على كرت
-                  الذاكرة
-                </p>
-
-                <p class="fs-1 text-orange pt-4">
-                  <span
-                    class="text-secondary text-decoration-line-through fs-3 pe-3"
-                    >40$</span
-                  >26$
-                </p>
+                    <p class="fs-1 text-orange">
+                      <span
+                        class="text-secondary text-decoration-line-through fs-3 pe-3"
+                        >32$</span
+                      >19$
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-md-3 mt-3">
-            <div class="border border-dark rounded-3" style="height: 425px">
-              <img
-                src="./images/offer7.jfif"
-                alt=""
-                height="230px"
-                width="100%"
-              />
-              <div class="text-center mt-3">
-                <p class="fs-5">
-                  ساعة ذكية من شركة شومي بأداء ممتاز مع إمكانية الرد على
-                  المكالمات
-                </p>
+          <div class="carousel-item">
+            <div class="row justify-content-center mt-4">
+              <div class="col-md-3 mb-4">
+                <div class="border border-dark rounded-3" style="height: 425px">
+                  <img
+                    src="./images/offer5.jfif"
+                    alt=""
+                    height="230px"
+                    width="100%"
+                  />
+                  <div class="text-center">
+                    <p class="fs-5">
+                      أصغر بفل بلوتوث بالحجم بس الأداء غيييير شكل
+                    </p>
 
-                <p class="fs-1 text-orange pt-4">
-                  <span
-                    class="text-secondary text-decoration-line-through fs-3 pe-3"
-                    >60$</span
-                  >45$
-                </p>
+                    <p class="fs-1 text-orange pt-4">
+                      <span
+                        class="text-secondary text-decoration-line-through fs-3 pe-3"
+                        >19$</span
+                      >13$
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+              <div class="col-md-3 mb-4">
+                <div class="border border-dark rounded-3" style="height: 425px">
+                  <img
+                    src="./images/offer6.jfif"
+                    alt=""
+                    height="230px"
+                    width="100%"
+                  />
+                  <div class="text-center mt-3">
+                    <p class="fs-5">
+                      مراية للسيارة مزودة بكميرا مراقبة مع امكانية التسجيل على
+                      كرت الذاكرة
+                    </p>
 
-          <div class="col-md-3 mt-3">
-            <div class="border border-dark rounded-3" style="height: 425px">
-              <img
-                src="./images/offer8.jfif"
-                alt=""
-                height="230px"
-                width="100%"
-              />
-              <div class="text-center mt-3">
-                <p class="fs-5">
-                  لأصحاب المتورات سماعة بلوتوث توضع داخل الخوذة
-                </p>
+                    <p class="fs-1 text-orange pt-4">
+                      <span
+                        class="text-secondary text-decoration-line-through fs-3 pe-3"
+                        >40$</span
+                      >26$
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-                <p class="fs-1 text-orange pt-4">
-                  <span
-                    class="text-secondary text-decoration-line-through fs-3 pe-3"
-                    >49$</span
-                  >29$
-                </p>
+              <div class="col-md-3 mb-4">
+                <div class="border border-dark rounded-3" style="height: 425px">
+                  <img
+                    src="./images/offer7.jfif"
+                    alt=""
+                    height="230px"
+                    width="100%"
+                  />
+                  <div class="text-center mt-3">
+                    <p class="fs-5">
+                      ساعة ذكية من شركة شومي بأداء ممتاز مع إمكانية الرد على
+                      المكالمات
+                    </p>
+
+                    <p class="fs-1 text-orange pt-4">
+                      <span
+                        class="text-secondary text-decoration-line-through fs-3 pe-3"
+                        >60$</span
+                      >45$
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="border border-dark rounded-3" style="height: 425px">
+                  <img
+                    src="./images/offer8.jfif"
+                    alt=""
+                    height="230px"
+                    width="100%"
+                  />
+                  <div class="text-center mt-3">
+                    <p class="fs-5">
+                      لأصحاب المتورات سماعة بلوتوث توضع داخل الخوذة
+                    </p>
+
+                    <p class="fs-1 text-orange pt-4">
+                      <span
+                        class="text-secondary text-decoration-line-through fs-3 pe-3"
+                        >49$</span
+                      >29$
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        <button
+          class="carousel-control-prev"
+          data-bs-target="#slides-with-control"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" id="iconP1"></span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          data-bs-target="#slides-with-control"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" id="iconP2"></span>
+        </button>
       </div>
     </div>
 
@@ -670,12 +731,12 @@
                 الاحترافية لكافة أنواع الموبايل و اللابتوب للأفراد و الشركات و
                 المؤسسات التعليمية واستمرينا حتى عام 2013 ثم نقلنا خدماتنا إلى
                 اسطنبول لنفتتح حينها أول مركز اتصالات و حواسيب سوري في اسطنبول
-                وبفضل من الله قدمنا خدماتنا بكل إخلاص كما أضفنا
-                لخدماتنا مجال كميرات المراقبة و تصميم المواقع لنخدّم العديد من
-                الشركات الهندسية والتعليمية في اسطنبول وبعد 12 عام في اسطنبول
-                قررنا العودة إلى بلدنا الحبيب لنفتتح مجدداً مركزنا الجديد في
-                دمشق لنضع بين أيديكم خبرة 22 عام و لنكون جزء من المتابعين و
-                المساهمين في نهضة بلدنا الغالي سوريا
+                وبفضل من الله قدمنا خدماتنا بكل إخلاص كما أضفنا لخدماتنا مجال
+                كميرات المراقبة و تصميم المواقع لنخدّم العديد من الشركات
+                الهندسية والتعليمية في اسطنبول وبعد 12 عام في اسطنبول قررنا
+                العودة إلى بلدنا الحبيب لنفتتح مجدداً مركزنا الجديد في دمشق لنضع
+                بين أيديكم خبرة 22 عام و لنكون جزء من المتابعين و المساهمين في
+                نهضة بلدنا الغالي سوريا
               </p>
               <div class="mt-4 pb-5">
                 <p class="pb-4 fs-4 text-orange">موعدنا في دمشق</p>
@@ -1007,9 +1068,432 @@
 
     <!--end about-us-section-->
 
+    <!--testimonials-section-->
+    <div class="container">
+      <h1 class="pt-5 text-center text-orange">جودةيشهد عليها زبائننا</h1>
+
+      <div
+        id="carousel-with-controls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center mt-5 mb-5">
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials2.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials3.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials4.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials5.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-5"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials6.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials7.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height:265px"
+                >
+                  <img
+                    src="./images/testimonials8.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row justify-content-center mt-5 mb-5">
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials9.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials10.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials11.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials12.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials13.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials14.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials15.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials16.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row justify-content-center mt-5 mb-5">
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials17.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials18.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials19.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials20.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials21.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials22.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials23.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials24.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row justify-content-center mt-5 mb-5">
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials25.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials26.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials27.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials28.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials29.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials30.jfif"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div
+                  class="border border-3 border-dark mb-4"
+                  style="height: 265px"
+                >
+                  <img
+                    src="./images/testimonials31.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev"
+        data-bs-target="#carousel-with-controls"
+        data-bs-slide="prev"
+        id="testimonials-control"
+        
+        ><span class="carousel-control-prev-icon"></span></button>
+
+
+
+        <button class="carousel-control-next"
+        data-bs-target="#carousel-with-controls"
+        data-bs-slide="next"
+        id="testimonials-control"
+        
+        ><span class="carousel-control-next-icon"></span></button>
+      </div>
+    </div>
+
+    <!--end testimonials-section-->
+
     <!--footer section-->
-     <div class="container-fluid footer-bg">
-      <div class="container pt-5" id="contact" style="overflow: hidden;">
+    <div class="container-fluid footer-bg">
+      <div class="container pt-5" id="contact" style="overflow: hidden">
         <div class="row justify-content-center pt-4 mb-4">
           <div class="col-md-4">
             <div class="pb-5">
@@ -1023,7 +1507,6 @@
                 height="150px"
                 alt=""
                 class="img-fluid"
-                
               />
             </div>
           </div>
@@ -1035,19 +1518,23 @@
                   ><i class="fa-solid fa-location-arrow"></i></span
                 >ركن الدين - مقابل جامع صلاح الدين -المحل الثالث على اليسار
               </p>
-              <a href="tel:0944710461" class="pt-2 text-white text-decoration-none d-block fs-5 pb-3">
+              <a
+                href="tel:0944710461"
+                class="pt-2 text-white text-decoration-none d-block fs-5 pb-3"
+              >
                 <span class="text-orange fs-5 ps-3"
                   ><i class="fa-solid fa-phone"></i></span
                 >0944710461
               </a>
-              
+
               <a
                 href="mailto:berekettekno@gmail.com"
                 class="text-white text-decoration-none fs-5"
                 ><span class="text-orange fs-5 ps-3"
-                  ><i class="fa-regular fa-envelope"></i></span
-                > berekettekno@gmail.com </a
-              >
+                  ><i class="fa-regular fa-envelope"></i
+                ></span>
+                berekettekno@gmail.com
+              </a>
               <p class="pt-4 text-white fs-5">
                 <span class="text-orange fs-5 ps-3"
                   ><i class="fa-regular fa-clock"></i></span
@@ -1057,17 +1544,27 @@
           </div>
           <div class="col-md-2">
             <div class="pb-5">
-            <h3 class="text-orange">روابط مهمة :</h3>
-            <div class="pt-4 fs-5">
-              <a href="#aboutUs" class="d-block pb-3 text-decoration-none text-white">من نحن</a>
-              <a href="./privacy-policy.html" class="d-block pb-3 text-decoration-none text-white">سياسة الخصوصية</a>
-              <a href="" class="d-block pb-3 text-decoration-none text-white">الشروط و الأحكام</a>
-            </div>
+              <h3 class="text-orange">روابط مهمة :</h3>
+              <div class="pt-4 fs-5">
+                <a
+                  href="#aboutUs"
+                  class="d-block pb-3 text-decoration-none text-white"
+                  >من نحن</a
+                >
+                <a
+                  href="./privacy-policy.html"
+                  class="d-block pb-3 text-decoration-none text-white"
+                  >سياسة الخصوصية</a
+                >
+                <a href="" class="d-block pb-3 text-decoration-none text-white"
+                  >الشروط و الأحكام</a
+                >
+              </div>
             </div>
           </div>
           <div class="col-md-2">
             <div>
-              <h4 class="text-orange">  منصات التواصل الاجتماعي :</h4>
+              <h4 class="text-orange">منصات التواصل الاجتماعي :</h4>
               <div class="mt-5 d-flex gap-4">
                 <a
                   href="https://www.instagram.com/berekettekno?igsh=ZHVqMmk4bWtocGRj&utm_source=qr"
@@ -1088,13 +1585,13 @@
             </div>
           </div>
         </div>
-        <p class="text-white pb-3">CopyRight&copy; Designed by <span class="text-orange">Marwa Alhamesh</span></p>
+        <p class="text-white pb-3">
+          CopyRight&copy; Designed by
+          <span class="text-orange">Marwa Alhamesh</span>
+        </p>
       </div>
     </div>
 
-
-
-   
     <!--end footer section-->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
