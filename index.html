@@ -138,11 +138,26 @@
         margin-right: 150px;
       }
 
-      #testimonials-control{
-        background-color:var(--black-color);
-        width: 20px;
-        height: 30px;
-       
+      #review-icon1,
+      #review-icon2 {
+        background-color: var(--orange-color);
+        border-radius: 50%;
+      }
+
+      #review-icon1 {
+        position: absolute;
+        top: -40px;
+        left: 0;
+      }
+
+      #review-icon2 {
+        position: absolute;
+        top: -40px;
+        right: 0;
+      }
+
+      .btn-orange {
+        background-color: var(--orange-color);
       }
     </style>
   </head>
@@ -1069,423 +1084,176 @@
     <!--end about-us-section-->
 
     <!--testimonials-section-->
-    <div class="container">
-      <h1 class="pt-5 text-center text-orange">جودةيشهد عليها زبائننا</h1>
 
+    <div class="container">
+      <h1 class="text-center text-orange pt-5">جودة يشهد عليها زبائننا</h1>
       <div
-        id="carousel-with-controls"
         class="carousel slide"
+        id="slides-with-control1"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
+        <div class="carousel-inner mt-5 mb-5">
           <div class="carousel-item active">
-            <div class="row justify-content-center mt-5 mb-5">
-              <div class="col-md-3">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
                 <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
+                  class="border border-2 border-dark p-4 mb-3"
+                  style="height: 230px"
                 >
                   <img
-                    src="./images/testimonials1.jpg"
+                    src="./images/review1.jpg"
+                    alt="رأي زبون"
                     class="img-fluid"
-                    alt=""
                   />
                 </div>
               </div>
-              <div class="col-md-3">
+
+              <div class="col-md-4">
                 <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
+                  class="border border-2 border-dark p-4 mb-3"
+                  style="height: 230px"
                 >
                   <img
-                    src="./images/testimonials2.jfif"
+                    src="./images/review2.jpg"
+                    alt="رأي زبون"
                     class="img-fluid"
-                    alt=""
                   />
                 </div>
               </div>
-              <div class="col-md-3">
+
+              <div class="col-md-4">
                 <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
+                  class="border border-2 border-dark p-4 mb-3"
+                  style="height: 230px"
                 >
                   <img
-                    src="./images/testimonials3.jfif"
+                    src="./images/review3.jpg"
+                    alt="رأي زبون"
                     class="img-fluid"
-                    alt=""
                   />
                 </div>
               </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials4.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials5.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-5"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials6.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials7.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height:265px"
-                >
-                  <img
-                    src="./images/testimonials8.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
+              <div class="col-md-4"></div>
+              <div class="col-md-4"></div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <div class="row justify-content-center mt-5 mb-5">
-              <div class="col-md-3">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
                 <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
+                  class="border border-2 border-dark p-4 mb-3"
+                  style="height: 230px"
                 >
                   <img
-                    src="./images/testimonials9.jfif"
+                    src="./images/review4.jpg"
+                    alt="رأي زبون"
                     class="img-fluid"
-                    alt=""
                   />
                 </div>
               </div>
-              <div class="col-md-3">
+
+              <div class="col-md-4">
                 <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
+                  class="border border-2 border-dark p-4 mb-3"
+                  style="height: 230px"
                 >
                   <img
-                    src="./images/testimonials10.jfif"
+                    src="./images/review5.jpg"
+                    alt="رأي زبون"
                     class="img-fluid"
-                    alt=""
                   />
                 </div>
               </div>
-              <div class="col-md-3">
+
+              <div class="col-md-4">
                 <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
+                  class="border border-2 border-dark p-4 mb-3"
+                  style="height: 230px"
                 >
                   <img
-                    src="./images/testimonials11.jfif"
+                    src="./images/review6.jpg"
+                    alt="رأي زبون"
                     class="img-fluid"
-                    alt=""
                   />
                 </div>
               </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials12.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials13.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials14.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials15.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials16.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
+              <div class="col-md-4"></div>
+              <div class="col-md-4"></div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <div class="row justify-content-center mt-5 mb-5">
-              <div class="col-md-3">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
                 <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
+                  class="border border-2 border-dark p-4 mb-3"
+                  style="height: 300px"
                 >
                   <img
-                    src="./images/testimonials17.jfif"
+                    src="./images/review7.jpg"
+                    alt="رأي زبون"
                     class="img-fluid"
-                    alt=""
                   />
                 </div>
               </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials18.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials19.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials20.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials21.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials22.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials23.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials24.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="carousel-item">
-            <div class="row justify-content-center mt-5 mb-5">
-              <div class="col-md-3">
+              <div class="col-md-4">
                 <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
+                  class="border border-2 border-dark p-4 mb-3"
+                  style="height: 300px"
                 >
                   <img
-                    src="./images/testimonials25.jfif"
+                    src="./images/review8.jpg"
+                    alt="رأي زبون"
                     class="img-fluid"
-                    alt=""
                   />
                 </div>
               </div>
-              <div class="col-md-3">
+
+              <div class="col-md-4">
                 <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
+                  class="border border-2 border-dark p-4 mb-3"
+                  style="height: 300px"
                 >
                   <img
-                    src="./images/testimonials26.jfif"
+                    src="./images/review9.jfif"
+                    alt="رأي زبون"
                     class="img-fluid"
-                    alt=""
                   />
                 </div>
               </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials27.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials28.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials29.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials30.jfif"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div
-                  class="border border-3 border-dark mb-4"
-                  style="height: 265px"
-                >
-                  <img
-                    src="./images/testimonials31.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
+              <div class="col-md-4"></div>
+              <div class="col-md-4"></div>
             </div>
           </div>
         </div>
 
-        <button class="carousel-control-prev"
-        data-bs-target="#carousel-with-controls"
-        data-bs-slide="prev"
-        id="testimonials-control"
-        
-        ><span class="carousel-control-prev-icon"></span></button>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#slides-with-control1"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" id="review-icon1"></span>
+        </button>
 
-
-
-        <button class="carousel-control-next"
-        data-bs-target="#carousel-with-controls"
-        data-bs-slide="next"
-        id="testimonials-control"
-        
-        ><span class="carousel-control-next-icon"></span></button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#slides-with-control1"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" id="review-icon2"></span>
+        </button>
+      </div>
+      <div class="text-center pb-5">
+        <a
+          href="./reviews.html"
+          type="button"
+          class="btn btn-orange border border-2 border-dark p-3 rounded-5"
+          >لمشاهدة المزيد من التعليقات</a
+        >
       </div>
     </div>
 

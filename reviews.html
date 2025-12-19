@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آراء الزبائن - بركات للاتصالات و الحواسيب</title>
+
+     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      :root {
+        --black-color: rgba(10, 20, 30);
+        --orange-color: rgba(236, 145, 56);
+        --white-color: rgba(255, 255, 255);
+      }
+
+      .background-color {
+        background-color: rgb(237, 238, 238);
+      }
+
+      .nav-link-color {
+        color: var(--orange-color);
+      }
+
+      .nav-link-color:hover {
+        color: var(--black-color);
+      }
+
+      .underline-hover {
+        position: relative;
+        padding-bottom: 7px;
+      }
+
+      .underline-hover::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--black-color);
+        transition: width 0.3s ease;
+      }
+
+      .underline-hover:hover::after {
+        width: 100%;
+      }
+
+      .text-orange {
+        color: var(--orange-color);
+      }
+
+      .footer-bg {
+        background-color: var(--black-color);
+      }
+
+       .background {
+        background: url(./images/2571115.jpg);
+        background-position: center;
+      }
+
+
+       .icon-color {
+        color: var(--orange-color);
+      }
+    </style>
+
+
+
+</head>
+<body>
+
+     <!--navbar-section-->
+    <div
+      class="navbar background-color navbar-expand-lg border-bottom border-dark"
+    >
+      <div class="container-fluid">
+        <a href="" class="navbar-brand">
+          <img
+            src="./images/logo-removebg-preview.png"
+            width="70px"
+            height="70px"
+            alt=""
+        /></a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-expanded="false"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4">
+            <li class="navbar-item ps-4 mb-3 fw-bold fs-5">
+              <a
+                href="./index.html"
+                class="navbar-link text-decoration-none nav-link-color underline-hover "
+                >الصفحة الرئيسية</a
+              >
+            </li>
+
+            <li class="navbar-item dropdown ps-4 mb-3 fw-bold fs-5">
+              <a
+                href=""
+                class="navbar-link text-decoration-none dropdown-toggle nav-link-color"
+                role="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                >قسم الموبايل</a
+              >
+              <ul class="dropdown-menu">
+                <li><a href="" class="dropdown-item">موبايلات جديدة</a></li>
+                <li><a href="" class="dropdown-item">موبايلات مستعملة</a></li>
+                <li><a href="" class="dropdown-item">اكسسوارات الموبايل</a></li>
+              </ul>
+            </li>
+            <li class="navbar-item dropdown ps-4 mb-3 fw-bold fs-5">
+              <a
+                href=""
+                class="navbar-link text-decoration-none dropdown-toggle nav-link-color"
+                role="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                >قسم اللاب توب</a
+              >
+              <ul class="dropdown-menu">
+                <li><a href="" class="dropdown-item">لابتوبات جديدة</a></li>
+                <li><a href="" class="dropdown-item">لابتوبات مستعملة</a></li>
+                <li><a href="" class="dropdown-item">اكسسوارات اللابتوب</a></li>
+              </ul>
+            </li>
+            <li class="navbar-item dropdown ps-4 mb-3 fw-bold fs-5">
+              <a
+                href=""
+                class="navbar-link text-decoration-none dropdown-toggle nav-link-color"
+                role="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                >قسم الكمبيوتر</a
+              >
+              <ul class="dropdown-menu">
+                <li><a href="" class="dropdown-item">معالج</a></li>
+                <li><a href="" class="dropdown-item">رام</a></li>
+                <li><a href="" class="dropdown-item">هارد</a></li>
+                <li><a href="" class="dropdown-item">كرت شاشة</a></li>
+                <li><a href="" class="dropdown-item">اللوحة الأم</a></li>
+                <li><a href="" class="dropdown-item">بور سبلاي</a></li>
+                <li><a href="" class="dropdown-item">هيكل خارجي</a></li>
+                <li class="dropdown">
+                  <a
+                    href=""
+                    class="dropdown-item dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="outside"
+                    >اكسسوارات أخرى</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li><a href="" class="dropdown-item">ماوس</a></li>
+                    <li><a href="" class="dropdown-item">كيبورد</a></li>
+                    <li><a href="" class="dropdown-item">هيدفون</a></li>
+                    <li><a href="" class="dropdown-item">بفلات</a></li>
+                    <li><a href="" class="dropdown-item">باد ماوس</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="navbar-item mb-3 fw-bold fs-5">
+              <a
+                href="#offers"
+                class="navbar-link text-decoration-none ps-4 nav-link-color underline-hover"
+                >العروض
+              </a>
+            </li>
+            <li class="navbar-item mb-3 fw-bold fs-5">
+              <a
+                href="./about-us.html"
+                class="navbar-link text-decoration-none ps-4 nav-link-color underline-hover"
+                >من نحن</a
+              >
+            </li>
+            <li class="navbar-item mb-3 fw-bold fs-5">
+              <a
+                href="#contact"
+                class="navbar-link text-decoration-none nav-link-color underline-hover"
+                >التواصل</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--end navbar-section-->
+
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="border border-3 mt-5 mb-5 rounded" style="height: 230px;">
+                <img src="./images/testimonials2.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-5 mb-5 rounded" style="height: 230px;">
+                <img src="./images/testimonials3.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 230px;">
+                <img src="./images/testimonials3.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 230px;">
+                <img src="./images/testimonials4.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 240px;">
+                <img src="./images/testimonials5.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 240px;">
+                <img src="./images/testimonials6.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 230px;">
+                <img src="./images/testimonials7.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 230px;">
+                <img src="./images/testimonials8.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 250px;">
+                <img src="./images/testimonials9.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 250px;">
+                <img src="./images/testimonials10.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 250px;">
+                <img src="./images/testimonials11.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 250px;">
+                <img src="./images/testimonials12.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 230px;">
+                <img src="./images/testimonials13.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 230px;">
+                <img src="./images/testimonials14.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 260px;">
+                <img src="./images/testimonials15.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 260px;">
+                <img src="./images/testimonials16.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 340px;">
+                <img src="./images/testimonials17.jfif" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 340px;">
+                <img src="./images/testimonials18.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 430px;">
+                <img src="./images/testimonials19.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+             <div class="border border-3 mt-2 mb-5 rounded" style="height: 430px;">
+                <img src="./images/testimonials20.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="border border-3 mt-2 mb-5 rounded" style="height: 450px;">
+                <img src="./images/testimonials21.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="border border-3 mt-2 mb-5 rounded" style="height: 450px;">
+                <img src="./images/testimonials22.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+      <!--footer section-->
+    <div class="container-fluid footer-bg">
+      <div class="container pt-5 " id="contact" style="overflow: hidden;">
+        <div class="row justify-content-center pt-4 mb-4">
+          <div class="col-md-4">
+            <div class="pb-5">
+              <h3 class="text-orange">بركات للاتصالات والحواسيب</h3>
+              <p class="pt-4 text-white pb-5">
+                صيانة احترافية و حلول تقنية متطورة في مكان واحد
+              </p>
+              <img
+                src="./images/logo2.png"
+                width="250px"
+                height="150px"
+                alt=""
+                class="img-fluid"
+                
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="pb-5">
+              <h3 class="text-orange">للتواصل :</h3>
+              <p class="pt-4 text-white fs-5">
+                <span class="text-orange fs-5 ps-3"
+                  ><i class="fa-solid fa-location-arrow"></i></span
+                >ركن الدين - مقابل جامع صلاح الدين -المحل الثالث على اليسار
+              </p>
+              <a href="tel:0944710461" class="pt-2 text-white text-decoration-none d-block fs-5 pb-3">
+                <span class="text-orange fs-5 ps-3"
+                  ><i class="fa-solid fa-phone"></i></span
+                >0944710461
+              </a>
+              
+              <a
+                href="mailto:berekettekno@gmail.com"
+                class="text-white text-decoration-none fs-5"
+                ><span class="text-orange fs-5 ps-3"
+                  ><i class="fa-regular fa-envelope"></i></span
+                > berekettekno@gmail.com </a
+              >
+              <p class="pt-4 text-white fs-5">
+                <span class="text-orange fs-5 ps-3"
+                  ><i class="fa-regular fa-clock"></i></span
+                >أوقات الدوام : من 11.00 صباحاَ إلى 08.00 مساءً
+              </p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="pb-5">
+            <h3 class="text-orange">روابط مهمة :</h3>
+            <div class="pt-4 fs-5">
+              <a href="./about-us.html" class="d-block pb-3 text-decoration-none text-white">من نحن</a>
+              <a href="./privacy-policy.html" class="d-block pb-3 text-decoration-none text-white">سياسة الخصوصية</a>
+              <a href="" class="d-block pb-3 text-decoration-none text-white">الشروط و الأحكام</a>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div>
+              <h4 class="text-orange">  منصات التواصل الاجتماعي :</h4>
+              <div class="mt-5 d-flex gap-4">
+                <a
+                  href="https://www.instagram.com/berekettekno?igsh=ZHVqMmk4bWtocGRj&utm_source=qr"
+                  ><i class="fa-brands fa-instagram fs-3 text-white"></i
+                ></a>
+                <a
+                  href="https://www.facebook.com/share/1BVuHbQSKB/?mibextid=wwXIfr"
+                  ><i class="fa-brands fa-facebook fs-3 text-white"></i
+                ></a>
+                <a href="https://wa.me/message/Q2AISBZDFYSLL1"
+                  ><i class="fa-brands fa-whatsapp fs-3 text-white"></i
+                ></a>
+                <a
+                  href="https://www.tiktok.com/@berekettekno?_r=1&_t=ZS-92HOFb65lSu"
+                  ><i class="fa-brands fa-tiktok fs-3 text-white"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-white pb-3">CopyRight&copy; Designed by <span class="text-orange">Marwa Alhamesh</span></p>
+      </div>
+    </div>
+
+    <!--end footer section-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
